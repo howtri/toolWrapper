@@ -1,0 +1,6 @@
+Basic tool to assist when using cli tools that only accept one input at a time. Comes with built in safety checks
+to check that the passed file with line seperated values to use the tool against contain a certain blurb and do
+not exceed a certain amount.
+
+This project needs quite a bit of work to universally be used against almost all tools. This is designed to be a safer
+and dedicated tool to replace using xargs to run a tool against a list or bash for loops.
